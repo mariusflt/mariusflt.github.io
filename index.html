@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>Titre de ma page</title>
+        <link id="style-sheet" rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1> ARCHITEK </h1>
+        <div>
+            <a href="accueil.html">ACCUEIL</a>
+            <a href="collaboration.html">COLLABORATION</a>
+        </div>       
+       
+        <h2>Innovation, invention et originalité </h2>
+        <h3>Architek est une entreprise créée en 2018 par deux associés. Cette entreprise a pour but de créer différents batiments basés autour d'une architechture technologique et innovante, mais qui se veut avant tout éco-responsable.</h3>
+
+       
+
+        <!-- une liste sans numérotation-->
+        <ul>
+            <li><b>PDG</b> : Marius </li>
+            <li><b>DG</b> : Johnatan Jean-Pierre </li>
+        </ul> 
+
+        <h2>Vidéo de présentation de nos projets actuels et futurs </h2>
+
+
+        <video controls class="video">
+            <source src="IMG/vidéo présentation.mov" type="">
+        </video>
+        <a href="https://www.youtube.com/watch?v=7_jD3Oyj194&t=16s">Lien vers la vidéo complète</a>
+
+ 
+		<div class="bloc1">
+        <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+            <img class="photoleft" src="IMG/evolution-tower.jpg"><br>
+            <div class="textedroite">
+                <h2> Notre première réalisation</h2>
+                <p>Le building entièrement en verre est une preuve évidente de l'esprit d'innovation et de l'exploration technologique. Sa façade étincelante est composée de verre et d'acier, offrant une vue imprenable sur la ville et ses alentours. La conception des intérieurs est innovante et moderne, avec des équipements de pointe qui permettront à ses occupants de se sentir à l'aise et en sécurité. Le bâtiment dispose d'un système de sécurité avancé, ainsi que d'un système d'éclairage automatique, tous deux alimentés par des sources d'énergie renouvelables. Des équipements informatiques et des services connectés à Internet permettent aux occupants de travailler et de communiquer sans tracas. Cet immeuble est à la pointe de l'architecture technologique et une véritable source d'inspiration pour les générations futures.</p>
+            </div>
+
+        </div>
+    	<div class="bloc2">
+            <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+            <div class="textegauche">
+                <h2> Notre projet en cours de réalisation</h2>
+                <p>L'immeuble que nous vous présentons est un bâtiment unique construit autour de la végétation. Situé dans un quartier calme, il offre une vue imprenable et un environnement relaxant. Les jardins luxuriants sont entourés par des murs en verre qui laissent entrer la lumière naturelle et créent un cadre idyllique à l'intérieur de l'immeuble. Les intérieurs ont été conçus pour compléter la végétation, créant un espace intime qui se mêle à la nature. La plupart des unités possèdent un balcon privé et des vues panoramiques sur le parc. Il y a aussi des espaces communs extérieurs, comme des terrasses et des jardins, offrant des opportunités pour profiter de la nature à l'extérieur. Cet immeuble est l'endroit idéal pour ceux qui recherchent l'harmonie entre la ville et la nature. Les résidents pourront profiter de leur chez-soi tout en étant à l'abri de la foule et des bruits de la ville. Les espaces communs sont conçus pour encourager les voisins à se connecter et à créer une communauté dynamique. </p>
+            </div>
+            <img class="photoright" src="IMG/immeuble-plantes.jpg">
+        </div>
+       
+        <!--pour integrer un lien vers un autre page HTML, enregistrée dans le même répertoire que le présent fichier HTML-->
+        
+	<button id="switch-style">changer la couleur de fond de la page</button>
+	<script src="script.js"></script>
+	</body>
+
+
+    
+</html>

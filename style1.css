@@ -1,0 +1,74 @@
+/* Fichier CSS à personnaliser */
+
+body{
+    background-color:#FFEBCD;
+    margin: 0 15% 0 15%;
+}
+
+h1 {
+    text-align: center;
+    color: Sienna;
+    font-size: 40px;
+  }
+
+h2 {
+    color: Sienna;
+    font-size: 26px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+.textedroite{
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+.textegauche{
+    margin-right: 10%;
+    margin-top: 20px;
+
+}
+
+.bloc1{
+    display: flex;
+    margin-top: 75px;
+}
+
+.bloc2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.photoright {
+    max-width: 33%;
+  }
+
+.photoleft {
+    max-width: 33%;
+  }
+
+
+.video {
+    max-width: 100%;
+   }
+
+
+
+.photo2 {
+    max-width: 30%;
+}
+.div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre1 {
+    max-width: 30%;
+    text-align: center;
+}
